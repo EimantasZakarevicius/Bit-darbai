@@ -1,0 +1,38 @@
+.content {
+    width: 800px;
+    border: 1px solid black;
+    background-color: lavender;
+    margin: 20 px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.address {
+    margin: 30px;
+}
+
+.date {
+    margin: 30px;
+    font-weight: bold;
+}
+
+.referral {
+    font-size: 20px;
+    text-align: left;
+    padding: 25px;
+}
+
+.marg {
+    margin: 20px;
+}
+
+.thanks {
+    text-align: right;
+}
+
+.name1 {
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+}
+
