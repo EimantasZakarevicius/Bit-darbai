@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 80vw;
+    height: 20px;
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+}
+
+li:focus .submenu-list {
+    display: block;
+    position: none ;
+}
+
+li {
+    position: relative;
+}
+
+.submenu-list {
+    display: none;
+    background-color: aquamarine;
+    width: 250px;
+    padding: 20px;
+    list-style-type: none;
+    border: 3px solid black;
+    position: absolute;
+    top: 20px;
+}
+
+.menu-list:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+   
+}
