@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 65vh;
+    height: 63vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 150px auto;
@@ -109,17 +109,33 @@ footer {
 
 
 @media (max-width: 1400px){
-    
+    .navbar {
+        word-spacing: 13px;
+    }
+
+    footer {
+        padding: 70px 150px;
+    }
 }
 
 
 @media (max-width: 1200px){
+    header {
+        grid-template-columns: 10fr;
+        padding-left: 10px;
+    }
     
+    footer {
+        padding: 60px 90px;
+    }
 }
 
 
 @media (max-width: 992px){
-    
+    footer {
+        grid-template-columns: 1fr 1fr;
+        padding: 70px 80px;
+    }
 }
 
 
