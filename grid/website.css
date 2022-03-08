@@ -40,6 +40,13 @@ a {
    display: none;
 }
 
+svg {
+    fill: #f3ecec;
+    border: 3px solid #ffffffb5;
+    border-radius: 3px;
+    padding: 2px;
+}
+
 main {
     margin-top: 100px;
     grid-area: main;
@@ -128,6 +135,10 @@ footer {
     footer {
         padding: 60px 90px;
     }
+
+    .logo {
+        text-align: start;
+    }
 }
 
 
@@ -136,14 +147,68 @@ footer {
         grid-template-columns: 1fr 1fr;
         padding: 70px 80px;
     }
+
+    .navbar {
+        word-spacing: 3px;
+    }
+
+    .logo {
+        text-align: start;
+    }
 }
 
 
-@media (max-width: 768px){
-    
+@media (max-width: 890px){
+    .navbar {
+        visibility: hidden;
+    }
+
+    .burger {
+        visibility: visible;
+        display: block;
+        text-align: end;
+        padding-right: 20px;
+    }
 }
 
 
-@media (max-width: 600px){
-    
+@media (max-width: 705px){
+    h1 {
+        font-size: 40px
+    }
+
+   main p {
+       font-size: 20px;
+   }
+}
+
+@media (max-width: 500px){
+    h1 {
+        font-size: 35px
+    }
+
+   main p {
+       font-size: 18px;
+   }
+
+   footer {
+    grid-template-columns: 1fr;
+    padding: 70px 20px;
+}
+}
+
+@media (max-width: 430px){
+    h1 {
+        font-size: 27px;
+    }
+
+   main p {
+       font-size: 15px;
+   }
+
+   .but1, 
+   .but2 {
+    padding: 15px 25px;
+   }
+
 }
