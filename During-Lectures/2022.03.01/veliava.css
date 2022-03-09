@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+}
+
+.parent {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+@keyframes flag {
+    0%, 100% {
+        height: 20%;
+    }
+    50% {
+        height: 50%;
+    }
+}
+
+.child1 {
+    background-color: yellow;
+    width: 34%;
+    height: 20%;
+    animation-name: flag;
+    animation: flag 3s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.child2 {
+    background-color: green;
+    width: 33%;
+    height: 20%;
+    animation-name: flag;
+    animation: flag 3s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+.child3 {
+    background-color: red;
+    width: 33%;
+    height: 20%;
+    animation-name: flag;
+    animation: flag 3s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}

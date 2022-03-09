@@ -1,0 +1,11 @@
+body {
+    background-image: url(./bentlay.jpg);
+    background-size: 100vw;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
