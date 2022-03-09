@@ -92,7 +92,7 @@ main p {
 }
 
 .entities {
-    padding-top: 100px;
+    padding-top: 70px;
     font-size: 25px;
 }
 
@@ -160,15 +160,25 @@ footer {
 
 @media (max-width: 890px){
     .navbar {
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
+        /* position: relative; */
+        align-items: start;
     }
 
     .burger {
-        visibility: visible;
+        /* visibility: visible; */
         display: block;
         text-align: end;
         padding-right: 20px;
     }
+
+    /* .burger:focus+.navbar {
+        display: block;
+        position: absolute;
+        height: 15%;
+        background-color: #b9b9b9;
+    } */
 }
 
 
